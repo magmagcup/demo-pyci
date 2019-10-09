@@ -13,7 +13,7 @@ class StatsTest(TestCase):
         self.assertEqual(0.0, variance([99.999]))
 
     def test_variance_throws_exception(self):
-        with self.assertRaises(TypeError):
+        with self.assertRaises(ValueError):
             var = variance([])
 
 if __name__ == '__main__':
