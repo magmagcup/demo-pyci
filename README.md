@@ -1,7 +1,7 @@
 Continuous Integration Demo
 ============================
 
->>> [![Build Status](https://travis-ci.org/magmagcup/demo-pyci.svg?branch=master)](https://travis-ci.org/magmagcup/demo-pyci)
+>>> [![Build Status](https://api.travis-ci.com/magmagcup/demo-pyci.svg?branch=master)](https://travis-ci.com/magmagcup/demo-pyci)
 
 This project demonstrates use of Travis CI to build and test a Python project.  
 You will create a repository on Github, then have Travis-CI pull and test it,
